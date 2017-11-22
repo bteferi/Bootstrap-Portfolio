@@ -1,22 +1,25 @@
 .aboutme{
-  border-style:solid;
-  border-color:black;
   padding:10px;
 
 
 }
 .profilepic{
-  width:150px;
-  height: 160px;
+  width:200px;
+  height: 180px;
   float:left;
   margin:7px;
 }
 
 .sidebar{
-  float: right;
-  width: 100%;
-  max-width: 270px;
-  margin-bottom: 20px;
-  background: #fff;
+  float: left;
+  padding-left:15%;
+  padding-top:15%
+}
 
+h3{
+  border-bottom:solid;
+  border-color:gray;
+  text-align:center;
+  margin:20px;
+  color:blue;
 }
