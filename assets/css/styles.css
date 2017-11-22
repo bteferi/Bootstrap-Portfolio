@@ -1,4 +1,22 @@
-body{
-  background-color:pink;
-  text-align:center;
+.aboutme{
+  border-style:solid;
+  border-color:black;
+  padding:10px;
+
+
+}
+.profilepic{
+  width:150px;
+  height: 160px;
+  float:left;
+  margin:7px;
+}
+
+.sidebar{
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  margin-bottom: 20px;
+  background: #fff;
+
 }
