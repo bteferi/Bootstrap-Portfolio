@@ -6,115 +6,183 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
   <!-- TOP navigation Bar -->
+
   <div class="container">
 
-<nav>
-    <nav class="navbar bg-light ">
-      <a class="navbar-brand" href="index.html">Bezawit Teferi</a>
-      <!-- here is the navs on the left  -->
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+    <nav>
+      <!--create a column for my name section -->
+      <div class="row">
+        <div class="col-md-6">
+        <nav class="navbar">
+          <a class="navbar-brand" href="index.html"><h2>Bezawit Teferi</h2></a>
+        </div>
+          <!-- here is the navs on the left for the additional links -->
+      <div class="col-md-6">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
 
-      </ul>
+          </ul>
+        </nav>
+      </div>
+    </div>
     </nav>
-</nav>
+
 
     <!-- Portfoli section starts -->
 
 <div class="container">
       <div class="row ">
 
-        <div class="col-md-8 border border-primary ">
+        <div class="col-md-8 border">
           <h3> Portfolio </h3>
           <!--add image-->
 
 <!--Here is the bootstrap image grip I am using  -->
-<div class="container ">
+<!--Div this in to two more columns -->
 
-<div>
+
+<div class="container">
   <div class="row">
+    <div class="col-md-6">
+    <!-- ADD in portfolio pics part A -->
+    <div class=" border-primary mb-3" style="max-width: 20rem;">
+      <div class="card-header">Header</div>
+      <div>
+        <img src="assets/imgs/image2.jpg " alt="Flower" width="200px" height="200px">
 
-    <div class="col-md-4">
-      <img src="assets/imgs/image1.jpg" alt="Flower" width="200" height=200px>
+        <h4 class="card-title">Primary card title</h4>
+      </div>
     </div>
 
 
 
-     <div class="col-md-2">
 
-      <img src="assets/imgs/image2.jpg " alt="Flower" width="200px" height="200px">
+
+
+
+    <div class="card border-secondary mb-3" style="max-width: 20rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body text-secondary">
+        <h4 class="card-title">Secondary card title</h4>
+        <p class="card-text">Some quick example text</p>
+      </div>
+    </div>
+    <div class="card border-success mb-3" style="max-width: 20rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body text-success">
+        <h4 class="card-title">Success card title</h4>
+        <p class="card-text">Some quick example text </p>
+      </div>
+    </div>
+    <div class="card border-danger mb-3" style="max-width: 20rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body text-danger">
+        <h4 class="card-title">Danger card title</h4>
+        <p class="card-text">Some quick example text .</p>
+      </div>
+    </div>
+
+    </div>
+
+
+
+<!-- right side pics  Part B-->
+
+<!--  Warning right side div starts here -->
+
+
+
+    <div class="col-md-6">
+      <div class="card border-primary mb-3" style="max-width: 20rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-primary">
+      <h4 class="card-title">Primary card title</h4>
+      <p class="card-text">Some quick example text .</p>
     </div>
   </div>
 
 
-  <div class="row">
 
-    <div class="col-md-4">
-      <img src="assets/imgs/image3.jpg" alt="Flower" width="200px" height="200px">
+  <div class="card border-secondary mb-3" style="max-width: 20rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-secondary">
+      <h4 class="card-title">Secondary card title</h4>
+      <p class="card-text">Some quick example text .</p>
     </div>
-
-
-  <div class="col-md-4">
-
-      <img src="assets/imgs/image4.jpg" alt="Flower" width="200px" height="200px">
+  </div>
+  <div class="card border-success mb-3" style="max-width: 20rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-success">
+      <h4 class="card-title">Success card title</h4>
+      <p class="card-text">Some quick example text .</p>
+    </div>
+  </div>
+  <div class="card border-danger mb-3" style="max-width: 20rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-danger">
+      <h4 class="card-title">Danger card title</h4>
+      <p class="card-text">Some quick example text to build .</p>
     </div>
   </div>
 
+<!--Below code is part of the hole container  -->
 
-  <div class="row">
-  <div class="col-md-4">
-
-      <img src="assets/imgs/image5.jpg" alt="Flower" width="200px" height="200px">
-    </div>
-
-
-  <div class="col-md-4">
-
-        <img src="assets/imgs/Rose1.png.png" alt="Flower" width="200px" height="200px">
     </div>
   </div>
-
 </div>
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--Above is the boot strap coloums  -->
         </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--THIS SECTION DOESN'T CHANGE  -->
         <div class="col-sm-4 ">
           <!-- Add in contact me and pges -->
-            <section class="sidebar border border-primary ">
+            <section class="sidebar border">
               <h3>Connect with Me</h3>
               <a href="https://github.com/bteferi " /target="_blank"><img src="assets/imgs/Github.jpn.png" class="social" alt="GitHub" width="75" height="75"/></a>
               <a href="https://www.linkedin.com/in/bezawit-teferi-141685105/ " /target="_blank"><img src="assets/imgs/LinkedIn.png" class="social" alt="LinkedIn"  width="75" height="75"  /></a>
