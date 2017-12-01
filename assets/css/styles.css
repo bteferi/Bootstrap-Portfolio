@@ -10,13 +10,10 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 p{
   margin:5px;
   padding:5px;
-
 }
 
 .navbar{
 margin-bottom:3%;
-
-
 }
 .profilepic{
   width:30%;
@@ -36,11 +33,13 @@ margin-bottom:3%;
 h2{
   text-align:left;
   font-weight: bold;
-  color:red;
   background-color:white;
   width:auto;
   height:auto;
   padding:15px;
+  border-style:solid;
+  border-color: blue;
+
 
 }
 
@@ -70,8 +69,9 @@ h3{
 }
 
 /* Portfolio gutter in between*/
-.portfolio-img{
-  margin-left:20px;
+.portfolio-img img{
+ max-width: 100%;
+ height: auto;
 }
 
 
